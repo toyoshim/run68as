@@ -23,3 +23,11 @@ At this point, I succeeded to run Z-MUSIC v1.10, v2.08, and SION2 with
 dedicated system call emulations.
 
 Please visit https://bit.ly/sion2 to confirm what can be done with this.
+
+## How to build
+```
+% git clone https://github.com/toyoshim/run68as.git
+% cd run68as
+% git submodule update --init
+% make
+```
