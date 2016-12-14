@@ -55,7 +55,7 @@ all: $(DEPEND) $(TARGET)
 clean:
 	rm -rf $(OUT) $(TARGET) *.mem
 
-depend: $(DPEND)
+depend: $(DEPEND)
 
 $(DEPEND): $(SRCS) Makefile
 	mkdir -p $(OUT)
